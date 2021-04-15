@@ -1,0 +1,44 @@
+img{
+    width: 100%;
+    
+}
+
+.caption{
+    text-align: center;
+}
+
+.new.row{
+    display: inline;
+    text-align: center;
+}
+
+.medium{
+    width: 50%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.img-thumbnail{
+    margin: 10px auto;
+    padding: 0;
+}
+
+.jumbotron{
+    margin-top: 10px;
+}
+.cap{
+    padding: 9px;
+}
+
+.well{
+    margin: 20px auto;
+}
+
+h6{
+    margin: 0;
+}
+
+.secondButton{
+    display: inline;
+    margin-left: 10px;
+}

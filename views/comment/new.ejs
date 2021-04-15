@@ -1,0 +1,23 @@
+<%- include('../partials/header') %>
+<div class="container">
+    <div class="row new">
+        <h1>Add New Campground</h1>
+        <div class="medium">
+            <form action="/campgrounds/<%=newCamp._id%>/comments" method="POST">
+                
+                <div class="form-group">
+                    <label>Comment</label>
+                    <input class="form-control" type="text" name="newComment[text]" placeholder="Comment">
+                </div>
+                <div class="form-group">
+                    <input class="btn btn-success btn-lg btn-block" type="submit" value="Submit">
+                </div>              
+                
+            </form>
+            <a href="/campgrounds/<%=newCamp._id%>">Go back</a>
+        </div>
+        
+    </div>
+    
+</div>
+<%- include('../partials/footer') %>
